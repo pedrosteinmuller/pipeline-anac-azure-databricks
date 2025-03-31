@@ -1,0 +1,25 @@
+{
+	"name": "triggerAnac",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline-anac",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2023-12-15T01:00:00",
+				"endTime": "2023-12-17T03:53:00",
+				"timeZone": "E. South America Standard Time"
+			}
+		}
+	}
+}
